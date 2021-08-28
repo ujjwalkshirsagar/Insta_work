@@ -1,0 +1,14 @@
+CREATE TABLE details2(
+   Sr_no                  INT   NOT NULL AUTO_INCREMENT PRIMARY KEY 
+  ,Username               VARCHAR(100) NULL
+  ,Insta_Id               VARCHAR(100) NULL
+  ,Profile_Id             VARCHAR(100) NULL
+  ,Bio                    VARCHAR(300) NULL
+  ,Is_Business_Account    VARCHAR(100) NULL
+  ,Posts                  INT NULL
+  ,Followers              INT NULL
+  ,Following              INT NULL
+  ,Business_Category_Name VARCHAR(100) NULL
+  ,Category_Name          VARCHAR(100) NULL
+  ,FF_Ratio               VARCHAR(100) NULL
+);
